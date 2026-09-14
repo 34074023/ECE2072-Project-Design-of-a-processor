@@ -1,5 +1,8 @@
 # ECE2072 Project: Design of a processor
 A hardware description project focused on the modular design, simulation, and implementation of a processor architecture. The project scales from fundamental hardware components to an extended processor capable of execution, memory interaction, and 7-segment display decoding.
+
+More details of this project can be found in the given pdf file.
+
 ## Architecture
 The processor was built incrementally across four key milestones, focusing on synchronous hardware design and extensive testbench verification:
 
