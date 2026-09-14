@@ -21,6 +21,7 @@ Expands the ISA (Instruction Set Architecture) to bridge internal processing wit
 
 ### 4. Memory & Program Control (`proc_memory`)
 Implements basic memory mapping and program control pipelines using standard Memory Initialization Files (`.mif`) to execute autonomous assembly programs (e.g., Fibonacci sequence calculations).
+* **Verification Scope:** While the experimental execution pipeline was mapped conceptually to run standard assembly logic (such as a Fibonacci loop), current validation relies on direct testbench simulation vectors (`proc_tb` and `proc_extension_tb`) rather than standalone static `.mif` configurations.
 
 ## Tech Stack & Tools
 * **Hardware Description Language:** Verilog / VHDL (Hardware Design & Structural Modeling)
@@ -38,7 +39,8 @@ The architecture is fully validated using comprehensive testbenches (`proc_tb` a
 
 ## Current Project Status & Known Limitations
 * **Core & Extended Processor:** 100% functional with clean, cycle-accurate simulation waveforms across all standard arithmetic operations.
-* **Memory & Branching Pipeline:** Fully maps programs from `.mif` instruction storage. *Known Bug:* The Program Counter (`pc`) logic occasionally experiences unexpected branching behaviors during deep autonomous execution blocks (e.g., Fibonacci assembly loops), resulting in a 75% complete implementation for this experimental subsystem.
+* **Memory & Branching Pipeline:** Fully maps programs from `.mif` instruction storage. *Known Bug:* The Program Counter (`pc`) logic occasionally experiences unexpected branching behaviors during autonomous execution blocks (e.g.,the given Fibonacci assembly loops), resulting in a 75% complete implementation for this experimental subsystem.
+*  
 
 ## Contributors (Team 49)
 * **Chan Kai Xiang** – Lead for `tick_FSM`, multiplexer, `register_n`, Core CPU Pipeline (`proc`), and Verification Testbenches.
