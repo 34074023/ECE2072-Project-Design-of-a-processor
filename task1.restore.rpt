@@ -1,0 +1,92 @@
+Restore Archived Project report for task1
+Tue Sep 08 17:04:35 2026
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Sep 08 17:04:35 2026 ;
+; Revision Name                   ; task1                                 ;
+; Top-level Entity Name           ; proc_extension_tb                     ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Warning (292006): Can't contact license server "1700@lic-altera.eng.monash.edu" -- this server will be ignored.
+Info: Successfully restored 'C:/Users/Lenovo/AppData/Local/Temp/3bf67522-eae6-4a80-8c5b-fda840a47a7c_Project_Group49.zip.Project_Group49.zip/Project_Group49.qar' into the 'C:\\Users\\Lenovo\\OneDrive\\Desktop\\ECE2072 project/' directory
+Info: Generated report 'task1.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4854 megabytes
+    Info: Processing ended: Tue Sep 08 17:04:35 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------------------+
+; Files Restored             ;
++----------------------------+
+; File Name                  ;
++----------------------------+
+; qar_info.json              ;
+; bcd_decoder.v              ;
+; components.v               ;
+; components_tb.v            ;
+; proc.v                     ;
+; proc_extension.v           ;
+; proc_extension_tb.v        ;
+; proc_extension_top_level.v ;
+; proc_memory.v              ;
+; proc_memory_top_level.v    ;
+; proc_tb.v                  ;
+; rom.qip                    ;
+; rom.v                      ;
+; rom_bb.v                   ;
+; simple_proc_top_level.v    ;
+; task1.qpf                  ;
+; task1.qsf                  ;
+; assignment_defaults.qdf    ;
++----------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
