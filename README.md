@@ -6,7 +6,7 @@ The processor was built incrementally across four key milestones, focusing on sy
 ### 1. Core Hardware Modules
 Designed and verified critical low-level arithmetic and control units:
 * **ALU (Arithmetic Logic Unit):** Handles basic operations including addition, subtraction, multiplication, and logical bit-shifting (`SSI`).
-* **Control Units & Registers:** Features a custom finite state machine (`tick_FSM`), an $N$-bit parameterizable register (`register_n`), multiplexers, and a sign extender.
+* **Control Units & Registers:** Features a tick finite state machine (`tick_FSM`), an $N$-bit parameterizable register (`register_n`), multiplexers, and a sign extender.
 
 ### 2. Simple Processor (`proc`)
 Integrates core modules into a functioning central processing unit supporting a foundational instruction set:
