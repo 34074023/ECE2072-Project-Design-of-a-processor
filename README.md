@@ -28,7 +28,7 @@ Implements basic memory mapping and program control pipelines using standard Mem
 
 ## Tech Stack & Tools
 * **Hardware Description Language:** Verilog / VHDL (Hardware Design & Structural Modeling)
-* **Simulation & Verification:** ModelSim / QuestaSim (Waveform analysis, testbench validation)
+* **Simulation & Verification:** ModelSim (Waveform analysis, testbench validation)
 * **Target Hardware Context:** Intel/Altera Quartus Prime (FPGA Deployment workflow)
 
 ## Verification & Demonstration Plans
