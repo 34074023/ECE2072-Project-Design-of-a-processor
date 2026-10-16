@@ -46,5 +46,5 @@ The architecture is fully validated using comprehensive testbenches (`proc_tb` a
 *  
 
 ## Contributors (Team 49)
-* **Chan Kai Xiang** – Lead for `tick_FSM`, multiplexer, `register_n`, Core CPU Pipeline (`proc`), and Verification Testbenches.
+* **Chan Kai Xiang** – Lead for `tick_FSM`, multiplexer, `register_n`, Core CPU Pipeline (`proc`), PC ('proc_memory'), and Verification Testbenches.
 * **Jacob Michael Low Ken Heng** – Lead for ALU, Sign Extender, `bcd_decoder` peripheral, Extended CPU Pipeline (`proc_extension`), and Verification Testbenches.
